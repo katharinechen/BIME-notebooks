@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 _client = pymongo.MongoClient('localhost', 27017)
-_db = _client['ghs_thalamus']
+_db = _client['thalamus-4']
 
 def getInterviewArchive():
     return _db.interview_archive
